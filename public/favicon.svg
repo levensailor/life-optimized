@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bento" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6E56CF"/>
+      <stop offset="1" stop-color="#E5484D"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#F5F5F7"/>
+  <rect x="7" y="7" width="31" height="31" rx="10" fill="url(#bento)"/>
+  <rect x="42" y="7" width="15" height="15" rx="5" fill="#6E56CF"/>
+  <rect x="42" y="26" width="15" height="31" rx="5" fill="#FFF"/>
+  <rect x="7" y="42" width="31" height="15" rx="5" fill="#FFF"/>
+  <path d="m14.5 23 5.5 5.5L31 17" fill="none" stroke="#FFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
