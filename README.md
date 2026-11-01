@@ -61,7 +61,7 @@ never expose it to browser code.
 ## Public links
 
 - [Source repository](https://github.com/levensailor/life-optimized)
-- Production URL: added after the first successful Vercel deployment
+- [Production application](https://life-optimized.vercel.app)
 - Read the Docs URL: added after the documentation project is imported
 
 ## Documentation
