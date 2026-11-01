@@ -1,0 +1,18 @@
+site_name: Household Catch-Up
+site_description: Architecture and contributor documentation
+site_url: https://life-optimized.readthedocs.io/
+repo_url: https://github.com/levensailor/life-optimized
+repo_name: levensailor/life-optimized
+
+theme:
+  name: readthedocs
+
+nav:
+  - Home: index.md
+  - Architecture: architecture.md
+  - Contributing: contributing.md
+  - Changelog: changelog.md
+
+markdown_extensions:
+  - admonition
+  - tables

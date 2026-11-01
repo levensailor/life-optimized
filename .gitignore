@@ -2,6 +2,7 @@
 .env
 .env.*
 !.env.example
+.cursor/hooks/
 .venv/
 venv/
 __pycache__/
@@ -14,3 +15,4 @@ build/
 .build/
 logs/
 *.log
+coverage/
