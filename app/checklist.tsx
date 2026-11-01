@@ -46,8 +46,12 @@ export function Checklist() {
       // Storage can be unavailable or malformed; the seed remains usable.
     }
 
-    setChecklist(nextChecklist);
-    setHydrated(true);
+    const hydration = window.setTimeout(() => {
+      setChecklist(nextChecklist);
+      setHydrated(true);
+    }, 0);
+
+    return () => window.clearTimeout(hydration);
   }, []);
 
   useEffect(() => {
